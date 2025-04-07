@@ -1,0 +1,11 @@
+kafka:
+  broker: "kafka:29092"
+
+aws:
+  region: "ap-south-1"
+  ses:
+    from_email: "prabuddha.chowdhury@ideadump.in"
+
+server:
+  port: 8080
+  graceful_shutdown_timeout: 10s

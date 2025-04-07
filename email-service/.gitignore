@@ -1,0 +1,36 @@
+# Go binaries
+/bin/
+/obj/
+
+# Go module files
+*.mod
+*.sum
+
+# Docker files
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Build artifacts
+/build/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Temporary files
+*.tmp
+*.temp
